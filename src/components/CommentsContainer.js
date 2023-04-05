@@ -76,7 +76,7 @@ const CommentsList = ({ comments }) => {
 };
 
 const Comment = ({ data }) => {
-  const { name, text, replies } = data;
+  const { name, text } = data;
   return (
     <div className="flex mt-2 bg-gray-100 rounded p-2">
       <FaUserCircle className="text-3xl" />
