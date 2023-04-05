@@ -29,7 +29,7 @@ const LiveChat = () => {
           message: generateRandomMessage(10),
         })
       );
-    }, 100000);
+    }, 500);
     return () => {
       clearInterval(i);
     };
